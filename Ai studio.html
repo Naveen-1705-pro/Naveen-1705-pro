@@ -1,0 +1,112 @@
+<!-- Design Ai studio where all the useful ai tool present in it and give new div 
+animation for more attractive -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stylish Text Writer</title>
+    <link rel="stylesheet" href="Aistduio.css"">
+</head>
+<body>
+<div class="outer">
+  <div id="text-output"></div>
+</div>
+<audio src="textsong.mp3"></audio>
+<div class="firstpar">
+    <div class="line1">
+        <div class="box1">
+            <div class="img1"><img src="chatgptlogo.webp" alt=""></div>
+            <div class="txt"><p class="innertxt">🤖Chatgpt- Let AI do the thinking</p></div>
+            <div class="read"><a href="https://openai.com/chatgpt/overview/"><button type="button" class="click">Click</button></a></div>
+        </div>
+        <div class="box1">
+            <div class="img1"><img src="oldmonkimg.png" alt=""></div>
+            <div class="txt"><p class="innertxt">🤖Leonardo.Ai-stylized art, characters, assets</p></div>
+            <div class="read"><a href="https://leonardo.ai/"><button type="button" class="click">Click</button></a></div>
+        </div>
+            <div class="box1">
+                <div class="img1"><img src="opensora.png" alt=""></div>
+                <div class="txt"><p class="innertxt">🤖Sora by OpenAI-Generate ultra-realistic videos</p></div>
+                <div class="read"><a href="https://pollo.ai/m/sora?utm_source=bing&utm_medium=cpc&utm_campaigntype=SSnonbrand&utm_PD=video&msclkid=9706690866021c18244901476b694221&utm_campaign=SS_Competitor_Other_&utm_term=sora%20ai%20video%20generator&utm_content=CP%3A%20Sora"><button type="button" class="click">Click</button></a></div>
+            </div>
+    </div>
+    <div class="line2">
+        <div class="box1">
+                <div class="img1"><img src="nationlogo.png" alt=""></div>
+                <div class="txt"><p class="innertxt">🤖Notion AI Pro- Enchanced full project automation</p></div>
+                <div class="read"><a href="https://www.notion.com/pricing"><button type="button" class="click">Click</button></a></div>
+                </div>
+        <div class="box1">
+                <div class="img1"><img src="wolframelogo.png" alt=""></div>
+                <div class="txt"><p class="innertxt">🤖Wolfram Alpha-Solving engineering mathematics</p></div>
+                <div class="read"><a href="https://www.wolframalpha.com/"><button type="button" class="click">Click</button></a></div>
+            </div>
+        <div class="box1">
+                <div class="img1"><img src="github.jpg" alt=""></div>
+                <div class="txt"><p class="innertxt">🤖GitHubCopilot-Auto-comp code in Python, C, C++, Java, </p></div>
+                <div class="read"><a href="https://github.com/features/copilot"><button type="button" class="click">Click</button></a></div>
+            </div>
+    </div>
+    <div class="line3">
+        <div class="box1">
+                <div class="img1"><img src="scite-logo.avif" alt=""></div>
+                <div class="txt"><p class="innertxt">🤖scite.ai- verifying scientific accuracy.</p></div>
+                <div class="read"><a href="https://scite.ai/"><button type="button" class="click">Click</button></a></div>
+                </div>
+        <div class="box1">
+                <div class="img1"><img src="Solidworks-Logo.png" alt=""></div>
+                <div class="txt"><p class="innertxt">🤖SolidWorks AI Assistant- Auto-completing 3D models</p></div>
+                <div class="read"><a href="https://www.solidworks.com/"><button type="button" class="click">Click</button></a></div>
+            </div>
+        <div class="box1">
+                <div class="img1"><img src="codeiumlogo.png" alt=""></div>
+                <div class="txt"><p class="innertxt">🤖Codeium- Smart code completion </p></div>
+                <div class="read"><a href="https://windsurf.com/"><button type="button" class="click">Click</button></a></div>
+            </div>
+    </div>
+<div class="endtxt"><p class="txtend">Best Engineering Tools For Today's World </p></div>
+</div>
+<!-- Begining of the javascript code -->
+  <script>
+    const text = "🤖 You're now entering the AI Galaxy — designed by me 🤖";
+    const output = document.getElementById("text-output");
+    const sound = document.getElementById("type-sound");
+
+    let index = 0;
+
+    function typeText() {
+      if (index < text.length) {
+        output.textContent += text.charAt(index);
+        // sound.currentTime = 0;
+        // sound.play();
+        index++;
+        setTimeout(typeText, 100); // Adjust typing speed here
+      }
+    }
+
+    window.onload = typeText;
+
+    // const newtext = "Welcome to my AI Galaxy!";
+    // const container = document.getElementById('typing-container');
+
+    // let count = 0;
+
+    // function typeLetter() {
+    //   if (count < text.length) {
+    //     const span = document.createElement('span');
+    //     span.className = 'letter';
+    //     span.textContent = text[count];
+
+    //     // Delay each letter’s animation slightly
+    //     span.style.animationDelay = `${count * 0.05}s`;
+    //     container.appendChild(span);
+
+    //     count++;
+    //     setTimeout(typeLetter, 100);
+    //   }
+    // }
+
+    // window.onload = typeLetter;
+  </script>
+</body>
+</html>

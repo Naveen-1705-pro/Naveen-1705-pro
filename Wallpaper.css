@@ -1,0 +1,153 @@
+/* @media screen and (min-width:445px){ */
+.container{
+    background-image: url(littlehanumanimage.jpg);
+    padding: 10px;
+    width: 330px;
+    margin-left: 500px ;
+    height: 610px;
+    /* display: flex;
+    align-items: center; */
+    /* margin:px; */
+    border: 3px solid black;
+    border-radius: 30px;
+}
+.head{
+    border: 2px solid black;
+    height: 260px;
+    border-radius: 30px;
+    background-image: url();
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.2);
+}
+img{
+    width: 100%;
+    border-radius: 28px;
+    cursor: hover;
+}
+.icon{
+    display: inline-block;
+    margin-top: 5px;
+    /* border: 3px solid black; */
+    /* width: 300px; */
+    /* margin: 0cap; */
+    /* justify-content: center; */
+}
+.Nature{
+    border: 3px solid rgb(222, 244, 244);
+    border-radius: 30px;
+    background-color: azure;
+    /* justify-content: center; */
+    display: inline-block;
+    margin-top: 9px;
+    padding: 8px;
+    height: 15px;
+    width: 60px;
+    text-align: center;
+    text-shadow: 4px;
+    margin-left: 10px;
+    font-size: large;
+    /* text-size-adjust: 40px; */
+
+    /* height: 40px; */
+
+}
+.lake{
+    border: 3px solid rgb(222, 244, 244);
+    background-color: azure;
+    /* display: inline; */
+    border-radius: 30px;
+    font-size: large;
+    /* text-decoration-color: azure; */
+    display: inline-block;
+    margin-top: 9px;
+    padding: 8px;
+    height: 15px;
+    width: 60px;
+    text-align: center;
+    margin-left: 20px;   
+}
+.lake:hover{
+    color: orange;
+    transform: scale(1.5);
+    border-color:greenyellow ;
+}
+.line{
+    /* border: 3px solid black; */
+    text-align: center;
+    font-size: x-large;
+    height: 40px;
+    font-weight: 900;
+    margin-top: 5px;
+    border-radius: 30px;
+}
+.text{
+    color: rgb(202, 28, 19);
+    font-size: larger;
+
+}
+.text:hover{
+    color: orange;
+    transform: scale(1.5);
+    border-radius: 20px;
+    /* width: 50px; */
+    /* height: 50px; */
+    text-align: center;
+    background-image: url(Backgroundimage.jpg);
+}
+.Nature:hover{
+    color: orange;
+    transform: scale(1.5);
+
+}
+.maintext{
+    text-align: center;
+    color:rebeccapurple ;
+    font-size: 20px;
+
+}
+.maintext:hover{
+    transform: scale(1.5);
+    border-radius: 20px;
+    color: orange;
+    background-image: url(Backgroundimage.jpg)
+}
+.Chalisa{
+    /* border: 3px solid black; */
+    /* height:; */
+    color: rgb(246, 90, 90);
+    
+    /* border-radius: 30px; */
+    overflow:auto;
+}
+.Chalisa:hover{
+    transform: scale(1.5);
+    border-radius: 10px;
+    color: orange;
+    background-image: url(balls-bouncing.gif);
+}
+.read{
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+}
+.readbutton{
+    margin-left: 120px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+.readbutton:hover{
+    transform: scale(1.8);
+    color-scheme: 2px;
+    color: blue;
+}
+body{
+    background-image: url(littlehanumanimage.jpg);
+    /* background-imag: ; */
+    background-color: yellow;
+    /* border: 10px dashed red; */
+    border-radius: 30px;
+}
+/* } */
