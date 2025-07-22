@@ -1,0 +1,205 @@
+body{
+    background: linear-gradient(180deg,black);
+    /* box-shadow: 20px -10px 40px rgba(black, 1.25); */
+    /* background-image: url(sphere.gif); */
+    /* background-image: url(fireworks.gif); */
+    overflow: hidden;
+}
+.chatbottxt{
+    /* border: 3px solid white; */
+    height: 90px;
+    width: 1220px;
+    box-shadow: 10px 12px 0px blue;
+    margin-top: 10px;
+    /* margin-left:130px; */
+    border: none;
+    border-right: none;
+          animation: spin2 8s linear infinite;
+      transform-style: preserve-3d;
+    background-image: url(fireworks.gif);
+    /* background-size: 100% ; */
+}
+    @keyframes spin2 {
+      0% {
+        transform: rotateY(0deg);
+      }
+      10%{
+        /* transform: rotateY(20deg); */
+        box-shadow: 20px 15px 0px rgb(200, 7, 97);
+      }
+      30%{
+        /* transform: rotateY(40deg); */
+        box-shadow: 20px 15px 0px rgb(55, 236, 106);
+      }
+      50%{
+        /* transform: rotateY(60deg); */
+        box-shadow: 20px 15px 10px rgb(247, 117, 10);
+      }
+      70%{
+        /* transform: rotateY(80deg); */
+        box-shadow: 20px 15px 0px rgb(201, 99, 232);
+      }
+      90%{
+        /* transform: rotateY(120deg); */
+        box-shadow: 20px 15px 0px rgb(26, 235, 131);
+      }
+      100% {
+        transform: rotateY(0deg);
+            box-shadow: 10px 15px 0px yellow;
+      }
+    }
+.txt{
+    position:absolute;
+    /* border: 3px solid white; */
+    margin-top: 20px;
+    width: 670px;
+    margin-left: -100px;
+    height: 60px;
+    font-size: 54px;
+    font-weight: 900;
+    color: aqua;
+    text-align: center;
+    text-shadow: 8px 4px 6px rgb(235, 234, 237);
+    margin-left: 280px;
+
+          font-size: 40px;
+      /* color: #00ffcc; */
+      animation: spin 6s linear infinite;
+      transform-style: preserve-3d;
+    /* margin-top: 40px; */
+
+}
+    @keyframes spin {
+      0% {
+        transform: rotateY(0deg);
+      }
+      100% {
+        transform: rotateY(360deg);
+      }
+    }
+    .orbit {
+  width: 200px;
+  height: 200px;
+  border: 8px dashed rgb(88, 236, 14); /* just to show the orbit circle */
+  position: relative;
+  margin-left: 470px;
+  margin-top: -180px;
+  animation: spin 5s linear infinite;
+  border-radius: 50%;
+  /* box-shadow: 20px -10px 15px blue; */
+}
+
+/* .text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: counter-spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}*/
+
+@keyframes counter-spin {
+  0% { transform: translateX(-50%) rotate(0deg);
+border: 3px dashed blue;
+ }
+  100% { transform: translateX(-50%) rotate(-360deg); }
+}
+ .entire{
+    /* border: 3px solid white; */
+    height: 530px;
+    width: 1210px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-image: url(newaiimg.png);
+    background-size: 100% 100%;
+    /* box-shadow: 10px -5px 5px white  ; */
+ }
+ .hand{
+    position: relative;
+    /* border: 3px solid wheat; */
+    height: 200px;
+    width: 1200px;
+ }
+ .hand img{
+    margin-top: -10px;
+    height: 220px;
+    width: 700px;
+ }
+ .rob{
+    position: absolute;
+    /* border: 3px solid white; */
+    height: 140px;
+    width: 250px;
+    margin-left: 450px;
+    margin-top: -170px;
+    /* background-image: url(aigif.gif);
+    background-size: 100% 100%; */
+ }
+ .orbit img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* animation: spin 5s linear infinite; */
+ }
+ .arrow1{
+    /* border: 3px solid white; */
+    height: 140px;
+    width: 400px;
+    margin-top: 25px;
+ }
+ .arrow1 img{
+        height: 200px;
+    width: 400px;
+    margin-top: 10px;
+ }
+ .arrow2{
+    /* border: 3px solid white; */
+    height: 140px;
+    width: 400px;
+    margin-top: -145px;
+    margin-left: 790px;
+ }
+ .arrow2 img{
+        height: 200px;
+    width: 400px;
+    transform: rotate(180deg);
+    margin-top: 10px;
+ }
+ .roboimg1{
+    /* border: 3px solid white; */
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    margin-left: 20px;
+    /* margin-top: -10px; */
+ }
+ .roboimg2{
+    position: absolute;
+    /* border: 3px solid white; */
+    height: 300px;
+    width: 500px;
+    margin-left: 800px;
+    /* margin-top: -300px; */
+ }
+ .roboimg1 img{
+    /* border: 3px solid white; */
+    height: 300px;
+    width: 500px;
+    margin-top: -10px;
+    animation: spin 3s linear infinite;
+ }
+ .roboimg2 img{
+    /* border: 3px solid white; */
+    height: 300px;
+    width: 500px;
+    animation: spin 3s linear infinite;
+ }
+ video{
+    position: relative;
+    height: 1210px;
+    height: 800px;
+ }
