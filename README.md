@@ -59,15 +59,24 @@ Send personalized morning messages with images, audio/video background, and divi
 
 A simple yet elegant typing effect with sound, useful for welcome messages and landing pages.
 
-### ✅ Weather Forecast App
+### ✅ Urbancompany clone
 
-Live time/date display with animated weather backgrounds and icons.
+This project is a frontend clone of UrbanCompany – a platform that connects users with local professionals for home services like salon, cleaning, repairs, and more.
 
-### ✅ AI Image Generator
+It replicates the core UI/UX and layout, built using HTML, CSS, and JavaScript, with responsiveness and basic interactivity. Ideal for portfolio or learning frontend architecture.
+
+### ✅ Ai chatbot with web development
 
 Input-based image generator UI ready for backend/API integration.
 
+### ✅ GameShop
+
+GameShop is a stylish, responsive frontend application that replicates a modern online gaming store. It showcases a variety of video games, consoles, accessories, and more. Designed for gamers, by a frontend developer passionate about UI/UX, animations, and clean code.
 ---
+
+### ✅ And More clone and some are design by me with creativity thinking
+
+involve many new element and function which show my capability and make more interactive web application and also use the high graphics and animation in these for more smoothness and feel the real web development .These all thing made in just one month
 
 ## 📌 Purpose
 
